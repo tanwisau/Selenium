@@ -45,6 +45,8 @@ Homeclass homepage;
          Assert.assertEquals(actualUrl,expectedUrl);
      }
 
+     //Practice git
+
      @Test
     void testSearch(){
          homepage.search();
