@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<suite name ="ebay">
+<suite name ="suite">
+
+    <Listeners>
+        <listener class-name="Listener1"></listener>
+    </Listeners>
+
     <test name ="regression">
         <classes>
            <class name ="HomeTest"></class>

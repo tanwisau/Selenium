@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class Homepage extends BaseClass {
+public class Homeclass extends BaseClass {
 
     @FindBy(xpath = "//li[@data-hover-track=\"p4375194.m1379.l6435\"]")
     WebElement motors;

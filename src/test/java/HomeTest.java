@@ -7,12 +7,12 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class HomeTest extends BaseClass {
-Homepage homepage;
+Homeclass homepage;
 
      @BeforeMethod
      void starting(){
          openBrowser("https://ebay.com");
-         homepage= PageFactory.initElements(driver,Homepage.class);
+         homepage= PageFactory.initElements(driver, Homeclass.class);
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
      }
 
